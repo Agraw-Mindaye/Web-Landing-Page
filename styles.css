@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+.header img {
+    width: 150px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
