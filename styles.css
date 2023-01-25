@@ -8,7 +8,7 @@ body {
 }
 
 /*Heading and links*/
-.heading {
+.intro {
     background-color: #1f2937;
 }
 .header {
@@ -69,7 +69,7 @@ body {
     object-fit: cover;
 }
 
-/*Main section*/
+/*Information and content section*/
 
 .info {
     align-items: center;
@@ -93,4 +93,57 @@ body {
 }
 .content p {
     text-align: center;
+}
+
+/*Quote section*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 400px;
+    background-color: #E5E7EB;
+}
+.quote h4 {
+    font-size: 36px;
+    font-style: italic;
+    color: #57595e;
+}
+.quote p {
+    text-align: right;
+    color: #1F2937
+}
+
+/*Action section*/
+
+.action {
+    display: flex;
+    align-items: center;
+    margin: 50px 300px;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+.action h3, .action p {
+    text-align: left;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.action button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: white;
+    margin: 5px 200px;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background-color: #1F2937;
+    color: #e5e7ebb4;
 }
